@@ -192,6 +192,17 @@ body {
 		font-size: 1.4rem;
 	}
 }
+//--------------------------------
+//Hero-Img
+.hero-img {
+	position: relative;
+	padding: 10em 2em;
+	@include heroImages('../img/hero-640.jpg');
+	text-align: center;
+	color: $pure-white;
+	overflow: hidden;
+}
+
 //-------------------------------------------------------
 //MEDIA
 @media (min-width: 576px) {
